@@ -4,6 +4,7 @@ Title: "Claim Norm Code"
 Description: """RT50Z3 in https://www.inami.fgov.be/SiteCollectionDocuments/instructions_facturation_electronique.pdf"""
 * ^experimental = false
 * ^caseSensitive = true
+* #0
 * #1
 * #2
 * #3
