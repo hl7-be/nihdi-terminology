@@ -1,6 +1,5 @@
 Nihdi terminology
 ---
-This is an empty IG
 <br> </br>
 ###
 ### Publication
