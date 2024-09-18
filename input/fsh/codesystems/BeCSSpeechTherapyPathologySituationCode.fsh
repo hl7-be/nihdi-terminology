@@ -4,6 +4,7 @@ Title: "Speech Therapy Pathology Situation code"
 Description: """Texte de la nomenclature (Article 36, par. 2)"""
 * ^experimental = false
 * ^caseSensitive = true
+* ^content = #fragment 
 * #a "Oral language and/or speech disorders"
 * #b1 "Aphasia"
 * #b2 "Development of receptive and/or expressive language"
