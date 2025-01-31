@@ -13,9 +13,9 @@ url: https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology
 name: BeNihdiTerminology
 title: "HL7 Belgium NIHDI Terminology"
 description: "Terminology managed by the NIHDI (RIZIV/INAMI) in various publication, such as https://www.inami.fgov.be/SiteCollectionDocuments/instructions_facturation_electronique.pdf "
-status: draft
+status: active
 license: CC0-1.0
-date: 2023-02-26
+date: 2025-01-31
 version: 1.0.0
 releaseLabel: STU
 
