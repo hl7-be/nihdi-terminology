@@ -1,0 +1,16 @@
+{
+    "package-id": "hl7.fhir.be.nihdi-terminology",
+    "version": "2.0.0",
+    "path": "https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/2.0.0",
+    "milestone" : true,
+    "status": "release",
+    "sequence": "Trial Use",
+    "desc": "NIHDI Terminology Profiles for Belgium",
+    "desccmd": "NIHDI Terminology Profiles for Belgium",
+    "title": "NIHDI Terminology Profiles for Belgium",
+    "ci-build" : "https://build.fhir.org/ig/hl7-be/nihdi-terminology",
+    "category": "National Base",
+    "introduction": "NIHDI Terminology Profiles for Belgium",
+	"date": "2025-02-21",
+  "mode": "milestone"   
+  }
