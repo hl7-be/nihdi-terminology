@@ -1,7 +1,7 @@
 {
     "package-id": "hl7.fhir.be.nihdi-terminology",
-    "version": "2.0.0",
-    "path": "https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/2.0.0",
+    "version": "1.0.0",
+    "path": "https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/1.0.0",
     "milestone" : true,
     "status": "release",
     "sequence": "Trial Use",
