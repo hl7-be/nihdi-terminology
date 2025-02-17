@@ -12,7 +12,7 @@ canonical: https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology
 url: https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology
 name: BeNihdiTerminology
 title: "HL7 Belgium NIHDI Terminology"
-description: "Terminology managed by the NIHDI (RIZIV/INAMI) in various publication, such as https://www.inami.fgov.be/SiteCollectionDocuments/instructions_facturation_electronique.pdf "
+description: "Terminology managed by the NIHDI (RIZIV/INAMI) in various publications, such as https://www.inami.fgov.be/SiteCollectionDocuments/instructions_facturation_electronique.pdf "
 status: active
 license: CC0-1.0
 date: 2025-01-31
@@ -190,6 +190,7 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   apply-version: true
+  propagate-status: true
 #  path-expansion-params: Parameters-terminology-expansion.json  
 # The FSHOnly flag indicates if only FSH resources should be exported.
 # If set to true, no IG related content will be generated.
