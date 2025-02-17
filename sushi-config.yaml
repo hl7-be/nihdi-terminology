@@ -76,6 +76,14 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 #  Patient: http://example.org/fhir/StructureDefinition/my-patient-profile
 #  Encounter: http://example.org/fhir/StructureDefinition/my-encounter-profile
 
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: trial-use
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: fhir
+  - url:  http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 1
+
 # The resources property corresponds to IG.definition.resource.
 # SUSHI can auto-generate all of the resource entries based on
 # the FSH definitions and/or information in any user-provided
