@@ -17,3 +17,4 @@ Issues:  __https://github.com/hl7-be/nihdi-terminology/issues__
 Kanban board:  __https://github.com/hl7-be/nihdi-terminology/projects/1__  
 
 ---
+
