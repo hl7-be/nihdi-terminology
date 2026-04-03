@@ -39,12 +39,12 @@ copyrightYear: 2021+
 # will be translated into IG.contact values.
 publisher:
   name: eHealth Platform
-  url: http://www.ehealth.fgov.be/
+  url: https://www.ehealth.fgov.be/
   email: support@be-ehealth-standards.atlassian.net
 
 # ContactDetail is required by the template.
 contact:
-  - name: Message Structure
+  - name: Message-Structure
     telecom:
       - system: email
         value: support@be-ehealth-standards.atlassian.net
