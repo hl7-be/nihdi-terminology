@@ -132,8 +132,8 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 pages:
   index.xml:
     title: Home
-  guidance.md:
-    title: Guidance
+  #guidance.md:
+   # title: Guidance
   changes.xml:
 #  examples.xml:
 #    title: Examples Overview
@@ -163,7 +163,7 @@ pages:
 # include a `menu.xml` file in input/includes.
 menu:
   Home: index.html
-  Guidance: guidance.html
+#  Guidance: guidance.html
   Artifacts:
     Extensions: artifacts.html#structures-extension-definitions
     Value Sets: artifacts.html#terminology-value-sets
