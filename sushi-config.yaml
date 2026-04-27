@@ -9,14 +9,14 @@
 
 id: hl7.fhir.be.nihdi-terminology
 canonical: https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology
-url: https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology
+#url: https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology
 name: BeNihdiTerminology
 title: "HL7 Belgium NIHDI Terminology"
 description: "Terminology managed by the NIHDI (RIZIV/INAMI) in various publication, such as https://www.inami.fgov.be/SiteCollectionDocuments/instructions_facturation_electronique.pdf "
-status: draft
+status: active
 license: CC0-1.0
-date: 2023-02-26
-version: 1.0.0
+date: 2026-04-24
+version: 1.1.0
 releaseLabel: STU
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
@@ -39,12 +39,12 @@ copyrightYear: 2021+
 # will be translated into IG.contact values.
 publisher:
   name: eHealth Platform
-  url: http://www.ehealth.fgov.be/
+  url: https://www.ehealth.fgov.be/
   email: support@be-ehealth-standards.atlassian.net
 
 # ContactDetail is required by the template.
 contact:
-  - name: Message Structure
+  - name: Message-Structure
     telecom:
       - system: email
         value: support@be-ehealth-standards.atlassian.net
@@ -132,8 +132,8 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 pages:
   index.xml:
     title: Home
-  guidance.md:
-    title: Guidance
+  #guidance.md:
+   # title: Guidance
   changes.xml:
 #  examples.xml:
 #    title: Examples Overview
@@ -163,10 +163,8 @@ pages:
 # include a `menu.xml` file in input/includes.
 menu:
   Home: index.html
-  Guidance: guidance.html
+#  Guidance: guidance.html
   Artifacts:
-    Logical Models: artifacts.html#structures-logical-models
-    Profiles: artifacts.html#structures-resource-profiles
     Extensions: artifacts.html#structures-extension-definitions
     Value Sets: artifacts.html#terminology-value-sets
   Changes: changes.html
@@ -185,6 +183,8 @@ menu:
 #  validation: [allow-any-extensions, no-broken-links]
 parameters:
   show-inherited-invariants: false
+  path-history: https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/history.html
+  excludettl: true
   shownav: true
   apply-contact: true
   apply-jurisdiction: true
@@ -200,6 +200,11 @@ FSHOnly: false
 # be set to the "Title" and "Description" of that Extension. Default is true.
 #applyExtensionMetadataToRoot: false
 
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: trial-use
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: fhir
 
 
     

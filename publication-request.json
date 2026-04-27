@@ -1,0 +1,12 @@
+{
+  "package-id": "hl7.fhir.be.nihdi-terminology",
+  "version": "1.1.0",
+  "status": "release",
+  "sequence": "Trial Use",
+  "fhirversion": "R4",
+  "desc": "eHealth FHIR NIHDI Terminology for Belgium",
+  "path": "https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/1.1.0",
+  "mode" : "milestone",
+  "milestone" : true,
+  "first": false
+}
